@@ -296,6 +296,7 @@ ul {
   -webkit-mask-image: radial-gradient(ellipse 85% 65% at 50% 0%, #000 35%, transparent 100%);
   mask-image: radial-gradient(ellipse 85% 65% at 50% 0%, #000 35%, transparent 100%);
   pointer-events: none;
+  z-index: 0;
 }
 
 .hero-glow {
@@ -303,6 +304,7 @@ ul {
   border-radius: 50%;
   filter: blur(90px);
   pointer-events: none;
+  z-index: 0;
 }
 
 .hero-glow--teal {
@@ -324,9 +326,8 @@ ul {
 .hero-grid {
   position: relative;
   display: grid;
-  grid-template-columns: 1.12fr 0.88fr;
+  grid-template-columns: minmax(0, 1fr);
   align-items: center;
-  gap: clamp(2rem, 5vw, 4.5rem);
 }
 
 .hero-copy {
