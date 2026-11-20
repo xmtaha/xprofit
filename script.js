@@ -2,178 +2,13 @@
    xmtaha — profil sayfası etkileşimleri
    ========================================================= */
 
-const projects = [
-  {
-    name: "pixel-limit-bypass",
-    desc: "Pixeldrain indirme limitlerini birden fazla proxy seçeneği ve dil desteğiyle aşar.",
-    lang: "JavaScript",
-    stars: 6,
-    forks: 0,
-    fork: false,
-    updated: "2026-10-12",
-    url: "https://github.com/xmtaha/pixel-limit-bypass",
-  },
-  {
-    name: "python-smoothie",
-    desc: "Birden fazla internet bağlantısını birleştirerek ağ hızını artıran basit bondlama aracı.",
-    lang: "Python",
-    stars: 1,
-    forks: 0,
-    fork: false,
-    updated: "2026-10-25",
-    url: "https://github.com/xmtaha/python-smoothie",
-  },
-  {
-    name: "uindex-qbt-search",
-    desc: "qBittorrent için Uindex arama eklentisi. Torrent aramalarını doğrudan istemciye taşır.",
-    lang: "Python",
-    stars: 0,
-    forks: 0,
-    fork: false,
-    updated: "2026-10-23",
-    url: "https://github.com/xmtaha/uindex-qbt-search",
-  },
-  {
-    name: "nzb-checker-ui",
-    desc: "NZB dosyalarını Usenet üzerinden denetleyen, Docker uyumlu web paneli. SSE ile canlı ilerleme ve rol bazlı yetkilendirme.",
-    lang: "HTML",
-    stars: 0,
-    forks: 0,
-    fork: false,
-    updated: "2026-06-01",
-    url: "https://github.com/xmtaha/nzb-checker-ui",
-  },
-  {
-    name: "nzbchecker",
-    desc: "NZB dosyalarını Usenet sunucusunda kontrol eden ve eksik parçalara göre sınıflandıran Python scripti.",
-    lang: "Python",
-    stars: 0,
-    forks: 0,
-    fork: false,
-    updated: "2026-01-02",
-    url: "https://github.com/xmtaha/nzbchecker",
-  },
-  {
-    name: "SwiftMux",
-    desc: "Video ses kanallarını AAC'ye dönüştürüp MKV olarak birleştiren PyQt6 masaüstü uygulaması.",
-    lang: "Python",
-    stars: 0,
-    forks: 0,
-    fork: false,
-    updated: "2026-01-21",
-    url: "https://github.com/xmtaha/SwiftMux",
-  },
-  {
-    name: "auto-watermark",
-    desc: "ffmpeg kullanarak videolara otomatik watermark ekler.",
-    lang: "Python",
-    stars: 1,
-    forks: 0,
-    fork: false,
-    updated: "2025-10-11",
-    url: "https://github.com/xmtaha/auto-watermark",
-  },
-  {
-    name: "google-photos-exif-editor",
-    desc: "Google Photos'tan indirilen fotoğrafların EXIF verilerini düzenlemek için masaüstü GUI.",
-    lang: "Python",
-    stars: 1,
-    forks: 0,
-    fork: false,
-    updated: "2026-06-16",
-    url: "https://github.com/xmtaha/google-photos-exif-editor",
-  },
-  {
-    name: "predb-turk",
-    desc: "BLURAY scene sürümlerini PreDB.net API'siyle takip eden Türkçe web arayüzü. NFO görüntüleme ve otomatik yenileme.",
-    lang: "HTML",
-    stars: 0,
-    forks: 0,
-    fork: false,
-    updated: "2025-11-25",
-    url: "https://github.com/xmtaha/predb-turk",
-  },
-  {
-    name: "gofile-bulk-downloader",
-    desc: "Gofile bağlantılarındaki tüm dosyaları tek tek tıklamadan otomatik indirir.",
-    lang: "JavaScript",
-    stars: 0,
-    forks: 1,
-    fork: false,
-    updated: "2025-10-11",
-    url: "https://github.com/xmtaha/gofile-bulk-downloader",
-  },
-  {
-    name: "FitGirl-Automatic-Download-Assistant",
-    desc: "FitGirl Repacks için fuckingfast.co indirme linklerini otomatik yönetir.",
-    lang: "JavaScript",
-    stars: 0,
-    forks: 0,
-    fork: false,
-    updated: "2025-10-06",
-    url: "https://github.com/xmtaha/FitGirl-Automatic-Download-Assistant",
-  },
-  {
-    name: "fileguard-gofile-downloader",
-    desc: "skidrowcodex üzerindeki fileguard gofile linklerini otomatik indirir.",
-    lang: "JavaScript",
-    stars: 0,
-    forks: 0,
-    fork: false,
-    updated: "2025-10-06",
-    url: "https://github.com/xmtaha/fileguard-gofile-downloader",
-  },
-  {
-    name: "zapret-fedora-selinux",
-    desc: "keift/zapret fork'u. DPI engellerini tek adımda aşmak için Fedora ve SELinux düzenlemeleri.",
-    lang: "Shell",
-    stars: 0,
-    forks: 0,
-    fork: true,
-    updated: "2026-06-14",
-    url: "https://github.com/xmtaha/zapret-fedora-selinux",
-  },
-  {
-    name: "my-fedora-zsh-automation",
-    desc: "Fedora kurulumu sonrası zsh ortamını hazırlayan kişisel otomasyon scriptleri.",
-    lang: "Shell",
-    stars: 0,
-    forks: 0,
-    fork: false,
-    updated: "2026-06-08",
-    url: "https://github.com/xmtaha/my-fedora-zsh-automation",
-  },
-  {
-    name: "tsukimi",
-    desc: "tsukinaha/tsukimi fork'u. Linux için sade, üçüncü taraf Jellyfin istemcisi.",
-    lang: "Rust",
-    stars: 0,
-    forks: 0,
-    fork: true,
-    updated: "2026-07-18",
-    url: "https://github.com/xmtaha/tsukimi",
-  },
-  {
-    name: "postie",
-    desc: "kipsilabs/postie fork'u. NZB dosyalarını Usenet'e yükleyen Go aracı.",
-    lang: "Go",
-    stars: 0,
-    forks: 0,
-    fork: true,
-    updated: "2026-09-05",
-    url: "https://github.com/xmtaha/postie",
-  },
-  {
-    name: "network-smoothie",
-    desc: "SethStalley/network-smoothie fork'u. Birden fazla ağ adaptörünü kullanarak internet bondlama.",
-    lang: "CSS",
-    stars: 0,
-    forks: 0,
-    fork: true,
-    updated: "2026-10-17",
-    url: "https://github.com/xmtaha/network-smoothie",
-  },
-];
+let projects = [];
+
+const loadProjects = async () => {
+  const res = await fetch("projects.json");
+  if (!res.ok) throw new Error(`projects.json yüklenemedi: ${res.status}`);
+  return res.json();
+};
 
 const LANG_COLORS = {
   Python: "#4b8bbe",
@@ -204,6 +39,16 @@ const escapeHtml = (value) =>
       "'": "&#39;",
     }[char];
   });
+
+const countLangs = () => {
+  const counts = projects.reduce((acc, project) => {
+    acc[project.lang] = (acc[project.lang] || 0) + 1;
+    return acc;
+  }, {});
+  return Object.entries(counts).sort(
+    (a, b) => b[1] - a[1] || a[0].localeCompare(b, "tr")
+  );
+};
 
 const dateFormatter = new Intl.DateTimeFormat("tr-TR", {
   month: "short",
@@ -264,7 +109,6 @@ const buildCard = (project) => {
   cardEntries.push({ el: article, project });
 };
 
-projects.forEach(buildCard);
 
 /* ---------- Filtre butonları ---------- */
 
@@ -282,12 +126,15 @@ const makeFilterButton = (value, label, count, color) => {
   return button;
 };
 
-filtersEl.appendChild(makeFilterButton("all", "Tümü", projects.length));
-sortedLangs.forEach(([lang, count]) => {
-  filtersEl.appendChild(
-    makeFilterButton(lang, lang, count, LANG_COLORS[lang] || "#2dd4bf")
-  );
-});
+const renderNav = (sortedLangs) => {
+  filtersEl.replaceChildren();
+  filtersEl.appendChild(makeFilterButton("all", "Tümü", projects.length));
+  sortedLangs.forEach(([lang, count]) => {
+    filtersEl.appendChild(
+      makeFilterButton(lang, lang, count, LANG_COLORS[lang] || "#2dd4bf")
+    );
+  });
+};
 
 /* ---------- Arama + filtreleme ---------- */
 
@@ -338,9 +185,11 @@ clearFiltersBtn.addEventListener("click", () => {
 
 /* ---------- Dil dağılımı ---------- */
 
-langBars.setAttribute("role", "list");
+const renderLangBars = (sortedLangs) => {
+  langBars.replaceChildren();
+  langBars.setAttribute("role", "list");
 
-sortedLangs.forEach(([lang, count]) => {
+  sortedLangs.forEach(([lang, count]) => {
   const percent = ((count / projects.length) * 100).toFixed(1);
   const color = LANG_COLORS[lang] || "#2dd4bf";
   const row = document.createElement("div");
@@ -353,28 +202,8 @@ sortedLangs.forEach(([lang, count]) => {
     <span class="lang-count">${count}</span>
   `;
   langBars.appendChild(row);
-});
-
-/* ---------- Görünür olunca animasyon ---------- */
-
-const revealTargets = document.querySelectorAll(".reveal, .project");
-
-if ("IntersectionObserver" in window) {
-  const revealObserver = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (!entry.isIntersecting) return;
-        entry.target.classList.add("in");
-        revealObserver.unobserve(entry.target);
-      });
-    },
-    { threshold: 0.08, rootMargin: "0px 0px -6% 0px" }
-  );
-
-  revealTargets.forEach((target) => revealObserver.observe(target));
-} else {
-  revealTargets.forEach((target) => target.classList.add("in"));
-}
+  });
+};
 
 /* ---------- Mobil menü ---------- */
 
@@ -482,4 +311,59 @@ document.getElementById("year").textContent = String(new Date().getFullYear());
 
 /* ---------- Başlangıç durumu ---------- */
 
-applyFilters();
+const updateStats = () => {
+  const totalStars = projects.reduce((sum, project) => sum + project.stars, 0);
+  document.querySelectorAll("[data-repo-count]").forEach((node) => {
+    node.textContent = String(projects.length);
+  });
+  document.querySelectorAll("[data-star-count]").forEach((node) => {
+    node.textContent = String(totalStars);
+  });
+};
+
+const showProjectsError = () => {
+  grid.hidden = true;
+  resultsLine.hidden = true;
+  emptyState.hidden = false;
+  emptyState.querySelector("h3").textContent = "Projeler yüklenemedi";
+  emptyState.querySelector("p").textContent =
+    "GitHub listesi şu an alınamıyor. Sayfayı yenilemeyi dene.";
+};
+
+const init = async () => {
+  try {
+    projects = await loadProjects();
+  } catch (error) {
+    console.error(error);
+    showProjectsError();
+    return;
+  }
+
+  const sortedLangs = countLangs();
+  projects.forEach(buildCard);
+  renderNav(sortedLangs);
+  renderLangBars(sortedLangs);
+  updateStats();
+
+  // Kartlar eklendikten sonra gözlemcileri kur
+  const revealTargets = document.querySelectorAll(".reveal, .project");
+  if ("IntersectionObserver" in window) {
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add("in");
+          revealObserver.unobserve(entry.target);
+        });
+      },
+      { threshold: 0.08, rootMargin: "0px 0px -6% 0px" }
+    );
+    revealTargets.forEach((target) => revealObserver.observe(target));
+  } else {
+    revealTargets.forEach((target) => target.classList.add("in"));
+  }
+
+  applyFilters();
+};
+
+init();

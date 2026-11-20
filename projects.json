@@ -1,0 +1,222 @@
+[
+  {
+    "name": "nntp-proxy",
+    "desc": "Rust ile yazılmış hızlı NNTP proxy",
+    "lang": "Rust",
+    "stars": 0,
+    "forks": 0,
+    "fork": true,
+    "updated": "2026-11-20",
+    "url": "https://github.com/xmtaha/nntp-proxy"
+  },
+  {
+    "name": "nzbchecker",
+    "desc": "NZB dosyalarını Usenet sunucusunda kontrol eden ve eksik parçalara göre otomatik olarak sınıflandıran Python scripti.",
+    "lang": "Python",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "updated": "2026-11-20",
+    "url": "https://github.com/xmtaha/nzbchecker"
+  },
+  {
+    "name": "dsh-lmfpd",
+    "desc": "Model identity test for the DeepSeek Harness settings page: asks a model for random numbers and ranks the closest known fingerprint.",
+    "lang": "JavaScript",
+    "stars": 1,
+    "forks": 0,
+    "fork": false,
+    "updated": "2026-11-19",
+    "url": "https://github.com/xmtaha/dsh-lmfpd"
+  },
+  {
+    "name": "postie",
+    "desc": "upload to nzb",
+    "lang": "Go",
+    "stars": 0,
+    "forks": 0,
+    "fork": true,
+    "updated": "2026-11-18",
+    "url": "https://github.com/xmtaha/postie"
+  },
+  {
+    "name": "cineflow",
+    "desc": "CineFlow — native Android (phone + Android TV) film/dizi tarayıcısı ve oynatıcısı (Kotlin + Compose + Media3)",
+    "lang": "Kotlin",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "updated": "2026-11-18",
+    "url": "https://github.com/xmtaha/cineflow"
+  },
+  {
+    "name": "my-fedora-zsh-automation",
+    "desc": "",
+    "lang": "Shell",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "updated": "2026-11-17",
+    "url": "https://github.com/xmtaha/my-fedora-zsh-automation"
+  },
+  {
+    "name": "cineflow-releases",
+    "desc": "CineFlow indirilebilir APK surumleri (kaynak kod ayri depoda)",
+    "lang": "Diğer",
+    "stars": 1,
+    "forks": 0,
+    "fork": false,
+    "updated": "2026-11-17",
+    "url": "https://github.com/xmtaha/cineflow-releases"
+  },
+  {
+    "name": "xm-watch",
+    "desc": "CineFlow - static, serverless TMDB streaming UI",
+    "lang": "TypeScript",
+    "stars": 1,
+    "forks": 0,
+    "fork": false,
+    "updated": "2026-11-12",
+    "url": "https://github.com/xmtaha/xm-watch"
+  },
+  {
+    "name": "python-smoothie",
+    "desc": "Easy network bonding. Increase your internet speed by blending multiple internet connections together.",
+    "lang": "Python",
+    "stars": 1,
+    "forks": 0,
+    "fork": false,
+    "updated": "2026-11-02",
+    "url": "https://github.com/xmtaha/python-smoothie"
+  },
+  {
+    "name": "8bit-subs",
+    "desc": "",
+    "lang": "JavaScript",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "updated": "2026-11-02",
+    "url": "https://github.com/xmtaha/8bit-subs"
+  },
+  {
+    "name": "dc-web-compress",
+    "desc": "A web application that runs in your local browser and compresses videos to 20 MB for Discord.",
+    "lang": "JavaScript",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "updated": "2026-10-30",
+    "url": "https://github.com/xmtaha/dc-web-compress"
+  },
+  {
+    "name": "gofile-bulk-downloader",
+    "desc": "Download all files from Gofile automatically by clicking download buttons.",
+    "lang": "JavaScript",
+    "stars": 2,
+    "forks": 0,
+    "fork": false,
+    "updated": "2026-10-29",
+    "url": "https://github.com/xmtaha/gofile-bulk-downloader"
+  },
+  {
+    "name": "xray-auto",
+    "desc": "An automated installation script to set up Xray-core VLESS + XTLS-Reality on Alpine Linux",
+    "lang": "Shell",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "updated": "2026-10-29",
+    "url": "https://github.com/xmtaha/xray-auto"
+  },
+  {
+    "name": "xprofit",
+    "desc": "Bu sayfa: kişisel profil sitesi (xmtaha.com)",
+    "lang": "CSS",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "updated": "2026-10-27",
+    "url": "https://github.com/xmtaha/xprofit"
+  },
+  {
+    "name": "uindex-qbt-search",
+    "desc": "Uindex qBittorrent Search Plugin",
+    "lang": "Python",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "updated": "2026-10-23",
+    "url": "https://github.com/xmtaha/uindex-qbt-search"
+  },
+  {
+    "name": "ProtonPortSync",
+    "desc": "Keeps qBittorrent's port matched to whatever port Proton VPN is forwarding you. Under a second, no restart.",
+    "lang": "PowerShell",
+    "stars": 0,
+    "forks": 0,
+    "fork": true,
+    "updated": "2026-07-27",
+    "url": "https://github.com/xmtaha/ProtonPortSync"
+  },
+  {
+    "name": "umbra-dcbot",
+    "desc": "",
+    "lang": "Python",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "updated": "2026-06-11",
+    "url": "https://github.com/xmtaha/umbra-dcbot"
+  },
+  {
+    "name": "pixel-limit-bypass",
+    "desc": "Bypass Pixeldrain download limits with multiple proxy options and language support",
+    "lang": "JavaScript",
+    "stars": 7,
+    "forks": 0,
+    "fork": false,
+    "updated": "2026-04-02",
+    "url": "https://github.com/xmtaha/pixel-limit-bypass"
+  },
+  {
+    "name": "SwiftMux",
+    "desc": "",
+    "lang": "Python",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "updated": "2026-01-21",
+    "url": "https://github.com/xmtaha/SwiftMux"
+  },
+  {
+    "name": "usenet-turk",
+    "desc": "",
+    "lang": "Python",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "updated": "2026-01-18",
+    "url": "https://github.com/xmtaha/usenet-turk"
+  },
+  {
+    "name": "newsturk_uploader",
+    "desc": "",
+    "lang": "Python",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "updated": "2026-01-05",
+    "url": "https://github.com/xmtaha/newsturk_uploader"
+  },
+  {
+    "name": "predb-turk",
+    "desc": "",
+    "lang": "HTML",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "updated": "2025-11-25",
+    "url": "https://github.com/xmtaha/predb-turk"
+  }
+]
