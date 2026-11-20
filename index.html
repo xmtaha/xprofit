@@ -4,13 +4,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Taha · xmtaha — Geliştirici Profili</title>
-  <meta name="description" content="Taha (@xmtaha) — otomasyon, Linux ve açık kaynak projeleri. 17 GitHub projesi, kullandığı araçlar ve iletişim." />
+  <meta name="description" content="Taha (@xmtaha) — otomasyon, Linux ve kullandığı araçlar." />
   <meta name="author" content="Taha" />
   <meta name="theme-color" content="#070b12" />
   <meta name="color-scheme" content="dark" />
   <meta property="og:type" content="profile" />
   <meta property="og:title" content="Taha · xmtaha" />
-  <meta property="og:description" content="İşlerimi kolaylaştıran açık kaynak projeler: otomasyon, ağ, NZB ve Linux araçları." />
+  <meta property="og:description" content="Taha (@xmtaha) — otomasyon, Linux ve kullandığı araçlar." />
   <meta property="og:image" content="https://avatars.githubusercontent.com/u/82343366?v=4&s=400" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1220'/%3E%3Cpath d='M20 22 12 32l8 10M44 22l8 10-8 10M36 18l-8 28' stroke='%232dd4bf' stroke-width='5' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -104,7 +104,6 @@
       </a>
       <div class="nav-links" id="nav-menu">
         <a href="#hakkimda">Hakkımda</a>
-        <a href="#projeler">Projeler</a>
         <a href="#yetenekler">Yetenekler</a>
         <a href="#iletisim">İletişim</a>
       </div>
@@ -143,8 +142,8 @@
           </p>
 
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#projeler">
-              Projelere göz at
+            <a class="btn btn-primary" href="#iletisim">
+              İletişime geç
               <svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg>
             </a>
             <a class="btn btn-ghost" href="https://github.com/xmtaha" target="_blank" rel="noopener">
@@ -161,10 +160,6 @@
             <li>
               <svg class="icon" aria-hidden="true"><use href="#i-clock" /></svg>
               İstanbul · <time class="local-time">--:--</time>
-            </li>
-            <li>
-              <svg class="icon" aria-hidden="true"><use href="#i-repo" /></svg>
-              <span data-repo-count>0</span> açık kaynak repo
             </li>
           </ul>
         </div>
@@ -183,9 +178,6 @@
 <span class="t-line"><span class="t-dim">taha@fedora</span><span class="t-dim">:</span><span class="t-path">~</span><span class="t-dim">$</span> <span class="t-cmd">cat about.txt</span></span>
 <span class="t-out">“I'm trying to make my job easier.”</span>
 
-<span class="t-line"><span class="t-dim">taha@fedora</span><span class="t-dim">:</span><span class="t-path">~</span><span class="t-dim">$</span> <span class="t-cmd">ls ~/projects | wc -l</span></span>
-<span class="t-out t-accent" data-repo-count>0</span>
-
 <span class="t-line"><span class="t-dim">taha@fedora</span><span class="t-dim">:</span><span class="t-path">~</span><span class="t-dim">$</span> <span class="t-cmd">git log -1 --oneline</span></span>
 <span class="t-out"><span class="t-hash">a1c9f2e</span> feat: keep it simple</span>
 
@@ -196,14 +188,6 @@
 
       <div class="container">
         <div class="stats-bar">
-          <div class="stat">
-            <span class="stat-value" data-repo-count>0</span>
-            <span class="stat-label">Açık kaynak repo</span>
-          </div>
-          <div class="stat">
-            <span class="stat-value" data-star-count>0</span>
-            <span class="stat-label">Toplam yıldız</span>
-          </div>
           <div class="stat">
             <span class="stat-value">3</span>
             <span class="stat-label">Takipçi</span>
@@ -224,8 +208,8 @@
           <p>
             Merhaba, ben Taha. GitHub'da <a class="inline-link" href="https://github.com/xmtaha" target="_blank" rel="noopener">@xmtaha</a>
             olarak üretiyorum. Ağırlıklı olarak Python ve JavaScript ile çalışıyorum; işin ucunda
-            bir sorunu çözmek varsa Shell, Go ya da Rust tarafına da uzanıyorum. Projelerimin
-            ortak noktası genellikle aynı: tekrar eden bir işi ortadan kaldırmak.
+            bir sorunu çözmek varsa Shell, Go ya da Rust tarafına da uzanıyorum. Ortak nokta
+            genellikle aynı: tekrar eden bir işi ortadan kaldırmak.
           </p>
           <p>
             Son dönemde qBittorrent arama eklentisi, NZB denetim paneli ve ağ bondlama araçları
@@ -267,53 +251,11 @@
       </div>
     </section>
 
-    <section class="section" id="projeler">
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">02 — Projeler</p>
-            <h2>Açık kaynak <span class="grad">17</span> proje</h2>
-            <p class="section-sub">İndirme araçlarından medya işleme ve ağ optimizasyonuna. Filtrele veya ara.</p>
-          </div>
-          <a class="btn btn-ghost" href="https://github.com/xmtaha?tab=repositories" target="_blank" rel="noopener">
-            GitHub'da tümü
-            <svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg>
-          </a>
-        </div>
-
-        <div class="project-toolbar">
-          <div class="filters" id="filters" role="group" aria-label="Dile göre filtrele"></div>
-          <label class="search" for="project-search">
-            <svg class="icon" aria-hidden="true"><use href="#i-search" /></svg>
-            <input type="search" id="project-search" placeholder="Proje veya dil ara…" autocomplete="off" spellcheck="false" />
-          </label>
-        </div>
-
-        <p class="results-line" id="results-line" aria-live="polite"><strong id="project-count">17</strong> proje gösteriliyor</p>
-
-        <div class="project-grid" id="project-grid"></div>
-
-        <div class="empty-state" id="empty-state" hidden>
-          <svg class="icon" aria-hidden="true"><use href="#i-search" /></svg>
-          <p>Aradığın kriterlere uyan proje bulunamadı.</p>
-          <button class="btn btn-ghost" id="clear-filters" type="button">Filtreleri temizle</button>
-        </div>
-
-        <noscript>
-          <p class="noscript-note">
-            Projeleri listelemek için JavaScript gerekiyor. Bu arada
-            <a class="inline-link" href="https://github.com/xmtaha?tab=repositories" target="_blank" rel="noopener">GitHub profilime</a>
-            göz atabilirsin.
-          </p>
-        </noscript>
-      </div>
-    </section>
-
     <section class="section" id="yetenekler">
       <div class="container">
         <div class="section-head">
           <div>
-            <p class="eyebrow">03 — Yetenekler</p>
+            <p class="eyebrow">02 — Yetenekler</p>
             <h2>Kullandığım <span class="grad">araçlar</span></h2>
             <p class="section-sub">Diller, ortamlar ve ilgilendiğim alanlar.</p>
           </div>
@@ -352,33 +294,21 @@
           </article>
         </div>
 
-        <div class="lang-panel reveal">
-          <div class="lang-panel-head">
-            <h3>Repo dilleri</h3>
-            <span><span data-repo-count>0</span> reponun birincil dillerine göre</span>
-          </div>
-          <div class="lang-bars" id="lang-bars"></div>
-        </div>
       </div>
     </section>
 
     <section class="section" id="iletisim">
       <div class="container">
         <div class="contact-card reveal">
-          <p class="eyebrow">04 — İletişim</p>
+          <p class="eyebrow">03 — İletişim</p>
           <h2>Bir fikir, soru ya da sadece <span class="grad">merhaba</span>?</h2>
           <p class="contact-desc">
-            En hızlı yol GitHub üzerinden ulaşmak. Issue açabilir, fork'layabilir
-            veya doğrudan bir projeye katkı sağlayabilirsin.
+            En hızlı yol GitHub üzerinden ulaşmak.
           </p>
           <div class="contact-actions">
             <a class="btn btn-primary" href="https://github.com/xmtaha" target="_blank" rel="noopener">
               <svg class="icon icon-fill" aria-hidden="true"><use href="#i-github" /></svg>
               GitHub'da takip et
-            </a>
-            <a class="btn btn-ghost" href="https://github.com/xmtaha?tab=repositories" target="_blank" rel="noopener">
-              Repolara göz at
-              <svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg>
             </a>
           </div>
           <div class="contact-meta">
