@@ -20,6 +20,8 @@ jobs:
         with:
           node-version: 22
       - name: Generate projects.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node .github/update-projects.ts
       - name: Commit changes
         run: |
