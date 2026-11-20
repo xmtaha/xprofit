@@ -269,7 +269,12 @@ h2 {
   }
 
   .tools li {
+    gap: 0.1rem;
+  }
+
+  .tools strong {
     display: block;
+    width: 100%;
   }
 
   .links .btn {
