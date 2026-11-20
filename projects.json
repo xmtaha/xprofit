@@ -1,5 +1,15 @@
 [
   {
+    "name": "xprofit",
+    "desc": "Bu sayfa: kişisel profil sitesi (xmtaha.com)",
+    "lang": "CSS",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "updated": "2026-11-20",
+    "url": "https://github.com/xmtaha/xprofit"
+  },
+  {
     "name": "nntp-proxy",
     "desc": "Rust ile yazılmış hızlı NNTP proxy",
     "lang": "Rust",
@@ -38,16 +48,6 @@
     "fork": true,
     "updated": "2026-11-18",
     "url": "https://github.com/xmtaha/postie"
-  },
-  {
-    "name": "cineflow",
-    "desc": "CineFlow — native Android (phone + Android TV) film/dizi tarayıcısı ve oynatıcısı (Kotlin + Compose + Media3)",
-    "lang": "Kotlin",
-    "stars": 0,
-    "forks": 0,
-    "fork": false,
-    "updated": "2026-11-18",
-    "url": "https://github.com/xmtaha/cineflow"
   },
   {
     "name": "my-fedora-zsh-automation",
@@ -130,16 +130,6 @@
     "url": "https://github.com/xmtaha/xray-auto"
   },
   {
-    "name": "xprofit",
-    "desc": "Bu sayfa: kişisel profil sitesi (xmtaha.com)",
-    "lang": "CSS",
-    "stars": 0,
-    "forks": 0,
-    "fork": false,
-    "updated": "2026-10-27",
-    "url": "https://github.com/xmtaha/xprofit"
-  },
-  {
     "name": "uindex-qbt-search",
     "desc": "Uindex qBittorrent Search Plugin",
     "lang": "Python",
@@ -160,16 +150,6 @@
     "url": "https://github.com/xmtaha/ProtonPortSync"
   },
   {
-    "name": "umbra-dcbot",
-    "desc": "",
-    "lang": "Python",
-    "stars": 0,
-    "forks": 0,
-    "fork": false,
-    "updated": "2026-06-11",
-    "url": "https://github.com/xmtaha/umbra-dcbot"
-  },
-  {
     "name": "pixel-limit-bypass",
     "desc": "Bypass Pixeldrain download limits with multiple proxy options and language support",
     "lang": "JavaScript",
@@ -188,26 +168,6 @@
     "fork": false,
     "updated": "2026-01-21",
     "url": "https://github.com/xmtaha/SwiftMux"
-  },
-  {
-    "name": "usenet-turk",
-    "desc": "",
-    "lang": "Python",
-    "stars": 0,
-    "forks": 0,
-    "fork": false,
-    "updated": "2026-01-18",
-    "url": "https://github.com/xmtaha/usenet-turk"
-  },
-  {
-    "name": "newsturk_uploader",
-    "desc": "",
-    "lang": "Python",
-    "stars": 0,
-    "forks": 0,
-    "fork": false,
-    "updated": "2026-01-05",
-    "url": "https://github.com/xmtaha/newsturk_uploader"
   },
   {
     "name": "predb-turk",
