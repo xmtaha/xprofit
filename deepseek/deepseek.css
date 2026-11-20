@@ -1,0 +1,150 @@
+/* =========================================================
+   DeepSeek peak saati sayfası
+   ========================================================= */
+
+.ds-page {
+  padding-top: clamp(2.5rem, 6vw, 4.5rem);
+}
+
+.ds-card {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(1.8rem, 5vw, 3rem);
+  border: 1px solid var(--border-strong);
+  border-radius: 26px;
+  background:
+    radial-gradient(620px 300px at 82% 0%, rgba(129, 140, 248, 0.14), transparent 70%),
+    rgba(13, 21, 34, 0.82);
+  text-align: center;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ds-card[data-state="peak"] {
+  border-color: rgba(248, 113, 113, 0.4);
+  box-shadow: 0 24px 80px -40px rgba(248, 113, 113, 0.55);
+}
+
+.ds-card[data-state="off"] {
+  border-color: rgba(74, 222, 128, 0.35);
+  box-shadow: 0 24px 80px -40px rgba(74, 222, 128, 0.45);
+}
+
+.ds-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0 0 1rem;
+  padding: 0.4rem 0.95rem;
+  border-radius: 999px;
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.ds-card[data-state="peak"] .ds-status {
+  color: var(--red);
+  background: rgba(248, 113, 113, 0.12);
+}
+
+.ds-card[data-state="off"] .ds-status {
+  color: var(--green);
+  background: rgba(74, 222, 128, 0.12);
+}
+
+.ds-pulse {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: currentColor;
+  animation: ds-pulse 1.8s ease-out infinite;
+}
+
+.ds-card[data-state="off"] .ds-pulse {
+  animation-duration: 3s;
+}
+
+@keyframes ds-pulse {
+  0% { box-shadow: 0 0 0 0 currentColor; opacity: 1; }
+  70% { box-shadow: 0 0 0 8px transparent; opacity: 0.75; }
+  100% { box-shadow: 0 0 0 0 transparent; opacity: 1; }
+}
+
+.ds-headline {
+  margin: 0;
+  font-size: clamp(1.1rem, 2.6vw, 1.45rem);
+  font-weight: 600;
+}
+
+.ds-countdown {
+  margin: 1.1rem 0 0.2rem;
+  font-family: var(--mono);
+  font-size: clamp(2.6rem, 9vw, 4.5rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.ds-card[data-state="peak"] .ds-countdown {
+  color: var(--red);
+}
+
+.ds-card[data-state="off"] .ds-countdown {
+  color: var(--green);
+}
+
+.ds-countdown-label {
+  margin: 0;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
+.ds-facts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.9rem 2rem;
+  margin: 2rem auto 1.6rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  max-width: 52rem;
+}
+
+.ds-facts > div {
+  min-width: 10rem;
+}
+
+.ds-facts dt {
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
+.ds-facts dd {
+  margin: 0.25rem 0 0;
+  font-size: 0.92rem;
+  color: var(--text);
+}
+
+.ds-sub {
+  margin-top: 0.15rem !important;
+  font-size: 0.74rem;
+  color: var(--faint);
+}
+
+.ds-note {
+  max-width: 62ch;
+  margin: 1.6rem auto 0;
+  font-size: 0.8rem;
+  line-height: 1.7;
+  color: var(--faint);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ds-pulse { animation: none; }
+}
