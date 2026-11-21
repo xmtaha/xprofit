@@ -17,6 +17,10 @@ body {
   overflow-x: hidden;
 }
 
+body {
+  background-image: none;
+}
+
 .ds-card {
   position: relative;
   min-width: 0;
