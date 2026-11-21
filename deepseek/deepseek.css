@@ -11,6 +11,12 @@
   max-width: 100%;
 }
 
+/* Eski ortak styles.css parçaları bu sayfada taşma üretiyordu */
+html,
+body {
+  overflow-x: hidden;
+}
+
 .ds-card {
   position: relative;
   min-width: 0;
