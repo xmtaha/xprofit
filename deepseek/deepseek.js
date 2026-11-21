@@ -23,6 +23,12 @@ const CN_HOLIDAYS = new Set([
 
 const HOUR = 3600 * 1000;
 
+// Türkiye saatiyle peak dilimleri (UTC+3): listeyi elle yazmayalım, UTC'den türetelim
+const trHour = (h) => String((h + 3) % 24).padStart(2, "0");
+const PEAK_TR_TEXT = `Türkiye saatiyle ${PEAK_UTC_RANGES.map(
+  ([from, to]) => `${trHour(from)}:00–${trHour(to)}:00`,
+).join(" ve ")}`;
+
 const beijingDay = new Intl.DateTimeFormat("en-CA", {
   timeZone: "Asia/Shanghai",
   year: "numeric",
@@ -132,6 +138,7 @@ const render = () => {
   $("ds-next-label").textContent = peak ? "Bitiş" : "Başlangıç";
   $("ds-tr-time").textContent = trTime.format(now);
   $("ds-tz-offset").textContent = `Pekin UTC+8 · Türkiye ${turkishOffset(now)} (Türkiye saatiyle peak yok)`;
+  $("ds-routine").textContent = PEAK_TR_TEXT;
   $("ds-next-switch").textContent = target ? `${trTime.format(target)} — Pekin ${beijingDate.format(target)}` : "—";
 };
 

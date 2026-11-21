@@ -6,8 +6,14 @@
   padding-top: clamp(2.5rem, 6vw, 4.5rem);
 }
 
+.ds-page .container,
+.ds-page .ds-card {
+  max-width: 100%;
+}
+
 .ds-card {
   position: relative;
+  min-width: 0;
   overflow: hidden;
   padding: clamp(1.8rem, 5vw, 3rem);
   border: 1px solid var(--border-strong);
@@ -143,6 +149,24 @@
   font-size: 0.8rem;
   line-height: 1.7;
   color: var(--faint);
+}
+
+@media (max-width: 720px) {
+  .ds-countdown {
+    font-size: 2.4rem;
+  }
+
+  .ds-facts > div {
+    min-width: 0;
+    flex: 1 1 100%;
+  }
+
+  .ds-page .section-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
 }
 
 @media (prefers-reduced-motion: reduce) {
